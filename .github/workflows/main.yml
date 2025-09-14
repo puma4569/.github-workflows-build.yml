@@ -24,7 +24,7 @@ jobs:
             FILES=files/ BIN_DIR=bin/targets/ar71xx/tiny/
 
       - name: Upload firmware
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: mr3020-firmware
           path: openwrt-imagebuilder-21.02.3-ar71xx-tiny/bin/targets/ar71xx/tiny/*.bin
